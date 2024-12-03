@@ -227,12 +227,14 @@ const fetchDataFarmsWithSerresWithPlaquess = async () => {
 };
 
 
-
-  useEffect(()=>{
-    fetchDataFarmsWithSerresWithPlaquess();
-  }, []);
+ 
 
 
+  useFocusEffect(
+    useCallback(() => {
+      fetchDataFarmsWithSerresWithPlaquess(); 
+  }, []));
+  
 
   
 
