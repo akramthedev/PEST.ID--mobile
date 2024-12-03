@@ -1,0 +1,1 @@
+export const ENDPOINT_API="https://pestid-test.pcs-agri.com/api/";
